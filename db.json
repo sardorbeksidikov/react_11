@@ -1,0 +1,14 @@
+{
+  "product": [
+    {
+      "img": "./src/assets/map1.png"
+    },
+    {
+      
+      "img": "./src/assets/map2.png"
+    },
+    {
+      "img": "./src/assets/map3.png"
+    }
+  ]
+}

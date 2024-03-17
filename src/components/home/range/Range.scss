@@ -1,0 +1,41 @@
+.range {
+    
+  &-top {
+    margin-top: 56px;
+    text-align: center;
+    &__name {
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 48px;
+      color: #333333;
+    }
+    &__title {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      color: #666666;
+    }
+  }
+  &-box{
+    display: flex;
+    align-items: center;
+    margin-top: 62px;
+    text-align: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 50px;
+    &__cart{
+      border-radius: 5px;
+        box-shadow: 2px 2px 4px 3px rgb(70, 70, 70, 0.1);
+        &:hover{
+            transform: scale(1.03);
+            transition: 0.5s;
+            box-shadow: 2px 2px 8px 3px rgba(74, 74, 74, 0.4);
+        }
+        h3{
+            margin-top: 15px;
+            padding-bottom: 15px;
+        }
+    }
+  }
+}
